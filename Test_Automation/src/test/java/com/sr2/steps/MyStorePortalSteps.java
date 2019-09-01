@@ -154,7 +154,6 @@ public class MyStorePortalSteps extends CommonSteps {
 		registrationPage.clickOnQuickViewFirstProductFromSummerDressesItem();
 		registrationPage.selectItemSize("M");
 		registrationPage.selectBlackColor();
-		//assertTrue(registrationPage.getSelectedColor().equals("Black"));
 		registrationPage.clickOnAddToCartButton();
 		assertTrue(registrationPage.checkItemInYourCartMessage().contains("There is 1 item in your cart."));
 		registrationPage.clickonProceedToCheckOutAfterAddingCart();
